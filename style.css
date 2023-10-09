@@ -1,0 +1,29 @@
+.content{
+    margin: 0px 350px;
+}
+.topnav{
+    background-color:  #f5f7f9;
+}
+.content label{
+    color:#516d8a;
+}
+.navmenu a{
+ color:#516d8a;
+}
+ .designertext{
+    margin: 40px;
+}
+.designer .imagesection{
+    position:absolute;
+    /* z-index: -1;    */
+}
+.designer{
+    background-image: url("./image.png");
+}
+.button{
+    background-color: #00bb9b;
+    border-radius: 5px;
+    border-color: blue;
+    padding: 10px;
+    /* z-index: 1; */
+}
