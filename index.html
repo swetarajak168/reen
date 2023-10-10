@@ -174,26 +174,118 @@
       </div>
     </section>
     <!--End of latest work-->
-    <section class="content text-center">
+    <section class="content text-center p-20">
       <h1 class="text-5xl">Want to work with us?</h1>
-      <p class="text-2xl">
+      <p class="text-2xl p-10">
         Magnis modipase que lib voloratati andigen daepeditem quiate re potem
         aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem
         tumquam
       </p>
       <buttton type="button" class="button text-white"> GET IN TOUCH</buttton>
     </section>
-    <section class="footer bottom-0 bg-blue-200">
+
+    <section class="footer text-white">
       <div class="footercontent">
-        <div class="grid grid-cols-4">
+        <div class="grid gap-5 grid-cols-4 pr-10">
           <div>
-            <h1>WHO WE ARE</h1>
+            <h1 class="text-3xl pt-10 pb-3 pr-5">WHO WE ARE</h1>
+            <img src="./reenlogo.png" alt="" class="h-20" />
+            <p class="py-3 text-2xl">
+              Magnis modipase que lib voloratati andigen daepeditem quiate re
+              potem aut labor. Laceaque quiae sitiorem rest non restibusaes maio
+              es dem tumquam
+            </p>
+            <span>More about us</span>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </div>
-          <h1>LATEST WORK</h1>
-          <h1>GET IN TOUCH</h1>
-          <h1>FREE UPDATES</h1>
+          <div>
+            <h1 class="text-3xl pt-10 pb-3 pr-5">LATEST WORK</h1>
+            <div class="flex flex-wrap">
+              <img src="./pic6.png" alt="" class="w-1/2 p-2" />
+              <img src="./pic3.png" alt="" class="w-1/2 p-2" />
+              <img src="./pic6.png" alt="" class="w-1/2 p-2" />
+              <img src="./pic6.png" alt="" class="w-1/2 p-2" />
+            </div>
+          </div>
+          <div>
+            <h1 class="text-3xl pt-10 pb-3">GET IN TOUCH</h1>
+            <p class="py-3 text-2xl">
+              Doloreiur quia commolu ptatemp dolupta tibusam enumenis et consent
+              acculiginis dentibea autem nisita.
+            </p>
+
+            <div class="pb-1">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>84 Street, City, State 24823</span>
+            </div>
+            <div class="pb-1">
+              <i class="fa fa-mobile" aria-hidden="true"></i>
+              <span>+00(123)4567890</span>
+            </div>
+            <div class="pb-1">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              <span >info@reen.com</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="text-3xl pt-10 pb-3">FREE UPDATES</h1>
+            <p class="py-3 text-2xl">
+              Consensus iume postae volor remged modis aut lor volor accabora
+              incim restro explabo.
+            </p>
+            <!-- <input type="search" placeholder="Enter your email address "> -->
+            <div >
+              <input
+                type="text"
+                class="form-control"
+                style="background-color: #4e5c6b; border: none"
+                placeholder="Enter Your Email"
+              />
+              <button
+                type="button"
+                class="bg-green-400 rounded-md "
+              >
+                SUBSCRIBE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lowerfooter bg-blue-900">
+        <div
+          class="flex lowfootercontent text-2xl justify-between h-100 p-10 space-x-30"
+        >
+          <div>
+            <i class="fa fa-copyright fa-lg" aria-hidden="true"></i>
+            <span class="text-2xl">2014 REEN, All rights reserved</span>
+          </div>
+          <div class="flex space-x-5">
+            <a href="">Home</a>
+            <a href="">Portfolio</a>
+            <a href="">Blog</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Contact</a>
+          </div>
+          <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <i class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i>
+          </button>
+         
         </div>
       </div>
     </section>
+    <script>
+      let mybutton = document.getElementById("myBtn");
+
+
+
+
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
   </body>
 </html>

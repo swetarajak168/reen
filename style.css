@@ -43,8 +43,18 @@
     height:200px;
 }
 .footer{
-    bottom:0;
+    bottom: 0;
+    background-color: #304152;
 }
 .footercontent{
     margin: 0px 350px;
+}
+.lowerfooter{
+    height: 100px;
+}
+.lowfootercontent
+{
+    margin: 0px 350px;
+    color:gray;
+    
 }
