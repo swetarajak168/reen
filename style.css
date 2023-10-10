@@ -1,5 +1,6 @@
 .content{
     margin: 0px 350px;
+    color:#516d8a;
 }
 .topnav{
     background-color:  #f5f7f9;
@@ -26,4 +27,24 @@
     border-color: blue;
     padding: 10px;
     /* z-index: 1; */
+}
+.responsive{
+    color:#516d8a
+}
+.latestwork{
+    background-color: #f5f7f9;
+    color:#516d8a
+}
+.latestwork img{
+    height: 300px;
+    margin:auto;
+}
+.slider img{
+    height:200px;
+}
+.footer{
+    bottom:0;
+}
+.footercontent{
+    margin: 0px 350px;
 }
